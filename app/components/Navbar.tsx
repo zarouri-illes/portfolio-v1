@@ -35,7 +35,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="lg:block hidden">
-                        <button className="px-4 py-2 font-semibold bg-transparent border border-primary text-primary rounded-[30px] hover:bg-primary hover:text-white transition-all duration-300">Contact</button>
+                        <button className="px-4 py-2 font-semibold border border-primary text-white rounded-[30px] bg-primary hover:opacity-60 transition-all duration-300">Contact</button>
                     </div>
 
                     <div onClick={toggleMenu} className="lg:hidden text-body text-3xl">
