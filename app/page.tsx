@@ -1,6 +1,6 @@
 "use client"
 
-import { Navbar, Hero, Skill, About } from "@/app/components/const";
+import { Navbar, Hero, About } from "@/app/components/const";
 
 export default function Home() {
     return (
@@ -8,7 +8,6 @@ export default function Home() {
             <Navbar/>
             <Hero/>
             <About />
-            <Skill/>
             <section>hero</section>
             <section>hero</section>
             <section>hero</section>

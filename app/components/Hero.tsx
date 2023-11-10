@@ -14,7 +14,6 @@ const Hero = () => {
                     <p className="font-light text-md leading-7 mb-8">{hero.description}</p>
                     <button className="px-6 py-2 font-semibold bg-primary border border-primary text-white rounded-[30px] hover:opacity-60 transition-all duration-300">Get in touch</button>
                 </div>
-
             </div>
         </div>
     )
