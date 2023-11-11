@@ -46,12 +46,47 @@ const about = {
 
 const portfolio = [
     {
-        name: "KOK",
-        description: "ejzfb ibzfi bzeifb izb iz paojoaj jfzioj inaoi najon foeno nao naoifnonioan aion oanf oan on of  n ijbaub ",
+        name: "Ose it",
+        description: "Ose it is a skill developement and inovating center that provides different courses in new technologies such as web developement.It was a team work with @Sifedine.com",
+        link: "https://ose-it.bouira.org",
+        sourceCodeAvailable: false,
+        gitHub: "/",
+        image: "/oseit.jpg",
+        alt: "Ose it Zarouri Illes",
+        technologies: ["TAILWINDCSS","REACTJS", "NEXTJS", "TYPESCRIPT", "EXPRESSJS", "MONGODB", "NODEJS"],
+    },
+    {
+        name: "CO-MED",
+        description: "CO-MED is a platform that connects the patient with the doctors, It allows the doctors to organize their patients and view their cabinet's stats in shape of charts, An AI that detects lung cancer using an X-Ray image only, It gives the patient the ability to search for doctors in his area and book an appointement. This was a team work with @Sifedine.com, It was our entry to Ose it hackathon.",
         link: "",
-        sourceCode: "",
-        technologies: [],
-    }
+        sourceCodeAvailable: false,
+        gitHub: "",
+        image: "/comed.jpg",
+        alt: "Comed Zarouri illes",
+        technologies: ["HTML5", "CSS3", "NODEJS", "EXPRESSJS", "MONGODB", "CHARTSJS"],
+    },
+    
+    {
+        name: "Sedjelni",
+        description: "Sedjelni is on of my first projects in web developement, It is a website dedicated to list patients in an organized table to avoid using tickets in real life, I took the inspiration from it to develop CO-MED , So you could call it a beta version of CO-MED",
+        link: "https://sedjelni.000webhostapp.com/Sedjelni.html",
+        sourceCodeAvailable: true,
+        gitHub: "https://github.com/zarouri-illes/Sedjelni",
+        image: "/sedjelni.png",
+        alt: "Sedjelni Zarouri Illes",
+        technologies: ["HTML5", "CSS3", "JAVASCRIPT", "JQUERY",],
+    },
+    {
+        name: "Ose it",
+        description: "Ose it is a skill developement and inovating center that provides different courses in new technologies such as web developement.It was a team work with @Sifedine.com",
+        link: "ose-it.bouira.org",
+        sourceCodeAvailable: true,
+        gitHub: "/",
+        image: "",
+        alt: "",
+        technologies: ["REACTJS", "NEXTJS", "TYPESCRIPT", "EXPRESSJS", "MONGODB", "NODEJS"],
+    },
+
 ]
 
 export {
