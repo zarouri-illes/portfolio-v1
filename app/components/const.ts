@@ -28,11 +28,29 @@ const hero = {
 
 const about = {
     Availibiity: true,
-    speciality: "Front-End Developer | Coach | Real Estate Agent",
+    speciality: "Front-End Developer | Trainer | Real Estate Agent",
     fullName: "Zarouri Illes",
+    moreDetails: [
+        {
+            title: "Education (Currently): ",
+            content: "First Year Licence Computer Science"
+        },
+        {
+            title: "Job (Currently): ",
+            content: "Freelance | Trainer at Ose it."
+        },
+    ],
     description: "My name is Zarouri Illes, 18 years old Front-End Developer, Real Estate Agent and Trainer, Very Passionat about learning new technologies in the market, And achievement new stuff in life, Always trying new things even tho it is outside my domaine like Real Estate, Trading and entrepreneurship. I am more focused on learning and gaining experience right now, I am very flexible and able to work in big teams.",
+};
 
-}
+const portfolio = [
+    {
+        name: "",
+        description: "",
+        link: "",
+        sourceCode: "",
+    }
+]
 
 export {
     Navbar,
