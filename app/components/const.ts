@@ -1,6 +1,7 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
+import Portfolio from "./Portfolio";
 
 const nav = [
     {
@@ -45,10 +46,11 @@ const about = {
 
 const portfolio = [
     {
-        name: "",
-        description: "",
+        name: "KOK",
+        description: "ejzfb ibzfi bzeifb izb iz paojoaj jfzioj inaoi najon foeno nao naoifnonioan aion oanf oan on of  n ijbaub ",
         link: "",
         sourceCode: "",
+        technologies: [],
     }
 ]
 
@@ -56,7 +58,9 @@ export {
     Navbar,
     Hero,
     About,
+    Portfolio,
     nav,
     hero,
-    about
+    about,
+    portfolio
 }

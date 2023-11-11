@@ -1,6 +1,6 @@
 "use client"
 
-import { Navbar, Hero, About } from "@/app/components/const";
+import { Navbar, Hero, About, Portfolio } from "@/app/components/const";
 
 export default function Home() {
     return (
@@ -8,6 +8,7 @@ export default function Home() {
             <Navbar/>
             <Hero/>
             <About />
+            <Portfolio />
             <section>hero</section>
             <section>hero</section>
             <section>hero</section>
