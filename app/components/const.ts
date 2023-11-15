@@ -30,7 +30,7 @@ const hero = {
 
 const about = {
     Availibiity: true,
-    speciality: "Front-End Developer | Trainer | Real Estate Agent",
+    speciality: "Front-End Developer | Teacher",
     fullName: "Zarouri Illes",
     moreDetails: [
         {
@@ -52,7 +52,7 @@ const portfolio = [
         link: "https://ose-it.bouira.org",
         sourceCodeAvailable: false,
         gitHub: "/",
-        image: "/oseit.jpg",
+        image: "/projects/oseit.jpg",
         alt: "Ose it Zarouri Illes",
         technologies: ["TAILWINDCSS","REACTJS", "NEXTJS", "TYPESCRIPT", "EXPRESSJS", "MONGODB", "NODEJS"],
     },
@@ -62,7 +62,7 @@ const portfolio = [
         link: "",
         sourceCodeAvailable: false,
         gitHub: "",
-        image: "/comed.jpg",
+        image: "/projects/comed.jpg",
         alt: "Comed Zarouri illes",
         technologies: ["HTML5", "CSS3", "NODEJS", "EXPRESSJS", "MONGODB", "CHARTSJS"],
     },
@@ -73,19 +73,9 @@ const portfolio = [
         link: "https://sedjelni.000webhostapp.com/Sedjelni.html",
         sourceCodeAvailable: true,
         gitHub: "https://github.com/zarouri-illes/Sedjelni",
-        image: "/sedjelni.png",
+        image: "/projects/sedjelni.png",
         alt: "Sedjelni Zarouri Illes",
         technologies: ["HTML5", "CSS3", "JAVASCRIPT", "JQUERY",],
-    },
-    {
-        name: "Ose it",
-        description: "Ose it is a skill developement and inovating center that provides different courses in new technologies such as web developement.It was a team work with @Sifedine.com",
-        link: "ose-it.bouira.org",
-        sourceCodeAvailable: true,
-        gitHub: "/",
-        image: "",
-        alt: "",
-        technologies: ["REACTJS", "NEXTJS", "TYPESCRIPT", "EXPRESSJS", "MONGODB", "NODEJS"],
     },
 ];
 
@@ -93,17 +83,17 @@ const services = [
     {
         title: "Front-End developement",
         description: "Cutting-edge frontend development: Pixel-perfect, responsive, and user-centric web solutions.",
-        image: "",
+        image: "/services/coding.gif",
     },
     {
         title: "Team Work",
         description: "I excel in collaborative coding, fostering synergy for efficient team success.",
-        image: "",
+        image: "/services/team.gif",
     },
     {
-        title: "Training",
+        title: "Teaching",
         description: "I adeptly simplify complex concepts, fostering understanding and enthusiasm in programming learners.",
-        image: "",
+        image: "/services/teacher.gif",
     }
 ];
 

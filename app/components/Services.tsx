@@ -11,16 +11,16 @@ const Services = () => {
                 {
                     services.map((service) => (
                         <div className="flex flex-col bg-white rounded-xl transition duration-300 hover:translate-y-1 hover:shadow-sm">
-                            <div className="relative w-full h-48">
-                                <img src={service.image} className="object-cover w-full h-full rounded-t" alt={service.title}/>
+                            <div className="relative w-full h-48 px-5">
+                                <img src={service.image} className="w-full rounded-t" alt={service.title}/>
                             </div>
-                            <div className="flex flex-col justify-between text-center space-y-6 p-8 border border-t-0 rounded-b-[8px]">
-                                <div className="space-y-2">
-                                    <div className="text-xl font-semibold text-oseRed">{service.title}</div>
-                                        <p className="text-sm text-oseBlack">{service.description}</p>
-                                    </div>
+                            <div className="flex flex-col justify-between text-center space-y-6 p-8 border border-t-0 rounded-b-[8px] mt-16">
+                                <div className="space-y-6">
+                                    <div className="text-xl font-semibold text-primary">{service.title}</div>
+                                    <p className="text-sm text-gray-500">{service.description}</p>
                                 </div>
                             </div>
+                        </div>
                     ))
                 }
             </div>

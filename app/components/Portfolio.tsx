@@ -10,7 +10,7 @@ const Portfolio = () => (
                     <div className="gap-x-8 [column-count:1] md:grid-cols-2 md:gap-x-4 md:[column-count:2] mt-6">
                         {
                             portfolio.map((project) => (
-                                <div className="mb-12 inline-block border border-solid border-primary rounded-xl md:mb-8 lg:mb-10">
+                                <div className="mb-12 bg-white inline-block border border-solid border-primary rounded-xl md:mb-8 lg:mb-10">
                                     <img src={project.image} alt={project.alt} className="inline-block rounded-t-xl" />
                                         <div className="px-5 py-8 sm:px-6">
                                             <h5 className="mb-3 text-xl text-primary font-bold">{project.name}</h5>

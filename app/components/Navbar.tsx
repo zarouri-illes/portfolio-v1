@@ -22,7 +22,7 @@ const Navbar = () => {
         window.addEventListener("scroll", handleScroll);
     }, [])
     return (
-        <header className="w-full fixed top-0 left-0 right-0">
+        <header className="w-full fixed top-0 left-0 right-0 z-50">
             <nav className={`py-4 md:px-12 px-4 bg-white ${isSticky ? "sticky top- right-0 left-0bg-white" : ""}`}>
 
                 <div className="flex items-center justify-between">
