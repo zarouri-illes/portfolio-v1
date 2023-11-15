@@ -5,7 +5,7 @@ const Services = () => {
     <section className="mt-32">
         <div className="px-1 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:py-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-                <h2 className="mb-5 text-center text-3xl font-bold md:text-5xl"><span className="text-primary">Projects</span> that I made</h2>
+                <h2 className="mb-5 text-heading text-center text-3xl font-bold md:text-5xl">What I can <span className="text-primary">do</span> for you</h2>
             </div>
             <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
                 {

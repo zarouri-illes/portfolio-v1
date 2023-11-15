@@ -6,7 +6,7 @@ const Portfolio = () => (
     <section>
         <div className="mx-auto w-full max-w-5xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
             <div className="flex flex-col items-stretch">
-                <h2 className="mb-5 text-center text-3xl font-bold md:text-5xl"><span className="text-primary">Projects</span> that I made</h2>
+                <h2 className="mb-5 text-center text-3xl font-bold md:text-5xl text-heading"><span className="text-primary">Projects</span> that I made</h2>
                     <div className="gap-x-8 [column-count:1] md:grid-cols-2 md:gap-x-4 md:[column-count:2] mt-6">
                         {
                             portfolio.map((project) => (
