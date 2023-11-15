@@ -32,11 +32,10 @@ const Portfolio = () => (
                                     </div>
                                 ))
                             }
-
-    </div>
-  </div>
-</div>
-</section>
+                        </div>
+                    </div>
+                </div>
+            </section>
 )
 
-export default Portfolio
+export default Portfolio;

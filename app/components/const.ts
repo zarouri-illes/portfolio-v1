@@ -2,6 +2,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
 import Portfolio from "./Portfolio";
+import Services from "./Services";
 
 const nav = [
     {
@@ -86,16 +87,35 @@ const portfolio = [
         alt: "",
         technologies: ["REACTJS", "NEXTJS", "TYPESCRIPT", "EXPRESSJS", "MONGODB", "NODEJS"],
     },
+];
 
-]
+const services = [
+    {
+        title: "Front-End developement",
+        description: "Cutting-edge frontend development: Pixel-perfect, responsive, and user-centric web solutions.",
+        image: "",
+    },
+    {
+        title: "Team Work",
+        description: "I excel in collaborative coding, fostering synergy for efficient team success.",
+        image: "",
+    },
+    {
+        title: "Training",
+        description: "I adeptly simplify complex concepts, fostering understanding and enthusiasm in programming learners.",
+        image: "",
+    }
+];
 
 export {
     Navbar,
     Hero,
     About,
     Portfolio,
+    Services,
     nav,
     hero,
     about,
-    portfolio
+    portfolio,
+    services
 }
