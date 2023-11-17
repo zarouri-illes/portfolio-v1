@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { nav } from "./const";
 import { HiMenu } from "react-icons/hi"
@@ -31,11 +30,11 @@ const Navbar = () => {
                     </div>
 
                     <div className="lg:flex items-center gap-3 hidden text-body">
-                        {nav.map((item) => (<Link href={item.link} className="block py-2 px-4 cursor-pointer text-lg font-semibold hover:opacity-60 hover:text-body transition-all duration-300">{item.name}</Link>))}
+                        {nav.map((item) => (<a href={item.link} className="block py-2 px-4 cursor-pointer text-lg font-semibold hover:opacity-60 hover:text-body transition-all duration-300">{item.name}</a>))}
                     </div>
 
                     <div className="lg:block hidden">
-                        <button className="px-4 py-2 font-semibold border border-primary text-white rounded-[30px] bg-primary hover:opacity-60 transition-all duration-300">Contact</button>
+                        <a href="#contact"><button className="px-4 py-2 font-semibold border border-primary text-white rounded-[30px] bg-primary hover:opacity-60 transition-all duration-300">Contact</button></a>
                     </div>
 
                     <div onClick={toggleMenu} className="lg:hidden text-body text-3xl">
@@ -45,7 +44,7 @@ const Navbar = () => {
 
                 {
                     isMenuOpen && <div className="mt-4 bg-primary rounded-lg text-white p-4">
-                        {nav.map((item) => (<Link href={item.link} className="block py-2 px-4 cursor-pointer text-lg hover:opacity-60 transition-all duration-300">{item.name}</Link>))}
+                        {nav.map((item) => (<a href={item.link} className="block py-2 px-4 cursor-pointer text-lg hover:opacity-60 transition-all duration-300">{item.name}</a>))}
                     </div>
                 }
 

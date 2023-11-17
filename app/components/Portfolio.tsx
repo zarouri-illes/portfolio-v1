@@ -3,7 +3,7 @@ import { portfolio } from "./const"
 import { AiFillEye } from "react-icons/ai"
 
 const Portfolio = () => (
-    <section>
+    <section id="projects">
         <div className="mx-auto w-full max-w-5xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
             <div className="flex flex-col items-stretch">
                 <h2 className="mb-5 text-center text-3xl font-bold md:text-5xl text-heading"><span className="text-primary">Projects</span> that I made</h2>

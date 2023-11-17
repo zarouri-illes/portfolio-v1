@@ -3,29 +3,31 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const nav = [
     {
         name: "Home",
-        link: "",
+        link: "#home",
     },
     {
         name: "About",
-        link: "",
+        link: "#about",
     },
     {
-        name: "Home",
-        link: "",
+        name: "Services",
+        link: "#services",
     },
     {
-        name: "Home",
-        link: "",
+        name: "Projects",
+        link: "#projects",
     }
 ];
 
 const hero = {
-    smallTitle: "Asalam Alikum, I am illes",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo culpa molestiae, reprehenderit neque ratione expedita in hic velit consequuntur delectus laboriosam omnis repellat dolore."
+    smallTitle: "Hello, I am illes",
+    description: "Welcome! I'm a front-end developer with a focus on React and Next.js. I specialize in transforming design concepts into seamless, visually appealing websites. Proficient in HTML, CSS, and JavaScript, I ensure responsive and dynamic user experiences. Let's create something exceptional together!"
 };
 
 const about = {
@@ -97,15 +99,23 @@ const services = [
     }
 ];
 
+const contact = {
+    email: "illeszarouri@gmail.com",
+    phoneNumber: "+213 7 93 08 05 67"
+}
+
 export {
     Navbar,
     Hero,
     About,
     Portfolio,
     Services,
+    Contact,
+    Footer,
     nav,
     hero,
     about,
     portfolio,
-    services
+    services,
+    contact
 }

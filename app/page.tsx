@@ -1,18 +1,17 @@
 "use client"
 
-import { Navbar, Hero, About, Portfolio, Services } from "@/app/components/const";
+import { Navbar, Hero, About, Portfolio, Services, Contact, Footer } from "@/app/components/const";
 
 export default function Home() {
     return (
         <>
-            <Navbar/>
-            <Hero/>
+            <Navbar />
+            <Hero />
             <About />
             <Services />
             <Portfolio />
-            <section>hero</section>
-            <section>hero</section>
-            <section>hero</section>
+            <Contact/>
+            <Footer />
         </>
     )
 }

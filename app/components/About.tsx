@@ -4,7 +4,7 @@ import { BiLogoCss3, BiLogoJavascript, BiLogoTailwindCss, BiLogoReact, BiLogoPyt
 import { SiNextdotjs, SiBootstrap } from "react-icons/si";
 
 const About = () => (
-    <section className="bg-white">
+    <section className="bg-white" id="about">
         <div className="mx-auto w-full max-w-7xl px-5 py-6 md:px-10 md:py-16 lg:py-20">
             <div className="grid gap-12 sm:gap-20 lg:grid-cols-2">
                 <div className="flex flex-col items-start gap-2">
@@ -29,9 +29,9 @@ const About = () => (
                     </div>
 
                     <div className="flex flex-col gap-4 font-semibold sm:flex-row">
-                        <a href="#" className="px-8 justify-between flex py-2 space-x-2 font-semibold bg-primary border border-primary text-white rounded-[30px] hover:opacity-60 transition-all duration-300">
+                        <a href="#contact" className="px-8 justify-between flex py-2 space-x-2 font-semibold bg-primary border border-primary text-white rounded-[30px] hover:opacity-60 transition-all duration-300">
                             <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b147043fe6ab404e65635e_Envelope.svg" alt="" className="inline-block" />
-                            <p>Email Me</p>
+                            <p>Contact me</p>
                         </a>
                         <button className="px-6 py-2 font-semibold bg-transparent border border-primary text-primary opacity-50 rounded-[30px]">
                             <p>Resume</p>
