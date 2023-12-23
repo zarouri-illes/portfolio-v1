@@ -75,7 +75,7 @@ const portfolio = [
         link: "https://sedjelni.000webhostapp.com/Sedjelni.html",
         sourceCodeAvailable: true,
         gitHub: "https://github.com/zarouri-illes/Sedjelni",
-        image: "/projects/sedjelni.png",
+        image: "/projects/sedj.png",
         alt: "Sedjelni Zarouri Illes",
         technologies: ["HTML5", "CSS3", "JAVASCRIPT", "JQUERY",],
     },
