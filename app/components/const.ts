@@ -5,6 +5,7 @@ import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import {Reveal}  from "./Reveal";
 
 const nav = [
     {
@@ -44,7 +45,7 @@ const about = {
             content: "Freelance | Trainer at Ose it."
         },
     ],
-    description: "My name is Zarouri Illes, 18 years old Front-End Developer, Real Estate Agent and Trainer, Very Passionat about learning new technologies in the market, And achievement new stuff in life, Always trying new things even tho it is outside my domaine like Real Estate, Trading and entrepreneurship. I am more focused on learning and gaining experience right now, I am very flexible and able to work in big teams.",
+    description: "My name is Zarouri Illes, 18 years old Front-End Developer and a Trainer, Very Passionat about learning new technologies in the market, And achieving new stuff in life. I am more focused on learning and gaining experience right now, I am very flexible and able to work in big teams.",
 };
 
 const portfolio = [
@@ -79,6 +80,17 @@ const portfolio = [
         alt: "Sedjelni Zarouri Illes",
         technologies: ["HTML5", "CSS3", "JAVASCRIPT", "JQUERY",],
     },
+
+    {
+        name: "Daoud Kamel's Real Estate Agency",
+        description: "A local real estate agency in Bouira that i made it's website",
+        link: "https://kamel-daoud.vercel.app",
+        sourceCodeAvailable: true,
+        gitHub: "https://github.com/zarouri-illes/promotion-immobili-re-kamel-daoud.git",
+        image: "/kamel.jpg",
+        alt: "Daoud Kamel's Real Estate Agency Zarouri illes",
+        technologies: ["TAILWINDCSS", "REACTJS", "NEXTJS"],
+    },
 ];
 
 const services = [
@@ -112,6 +124,7 @@ export {
     Services,
     Contact,
     Footer,
+    Reveal,
     nav,
     hero,
     about,
