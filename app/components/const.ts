@@ -33,7 +33,7 @@ const hero = {
 
 const about = {
     Availibiity: true,
-    speciality: "Front-End Developer | Teacher",
+    speciality: "Front-End Developer | Coach",
     fullName: "Zarouri Illes",
     moreDetails: [
         {
@@ -105,7 +105,7 @@ const services = [
         image: "/services/team.gif",
     },
     {
-        title: "Teaching",
+        title: "Coaching",
         description: "I adeptly simplify complex concepts, fostering understanding and enthusiasm in programming learners.",
         image: "/services/teacher.gif",
     }
